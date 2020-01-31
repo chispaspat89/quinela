@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interfaces.Recuperar.RecuperarFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por favor, ingresa el nombre  de usuario asociado a la cuenta y se generara una contraseña para poder ingresar a la aplicación. Se recomienda tener papel y lapiz."
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editRecuperar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingeresar usuario"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:textAllCaps="false"
+            android:background="@drawable/botoninicio"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="25dp"
+            />
+    </LinearLayout>
+</FrameLayout>

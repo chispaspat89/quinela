@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:showIn="navigation_view">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/itementrada"
+        android:icon="@mipmap/entrada"
+        android:title="Principal" />
+
+    <item
+        android:id="@+id/itemeditar"
+        android:icon="@mipmap/productor"
+        android:title="Editar perfil" />
+    <item
+        android:id="@+id/itemCerrarSesion"
+        android:icon="@mipmap/ajuste"
+        android:title="Cerrar sesión" />
+</group>
+
+
+
+</menu>

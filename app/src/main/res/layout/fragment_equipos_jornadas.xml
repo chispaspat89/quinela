@@ -1,0 +1,849 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bisboguicompany.chispas.quinela.Interfaces.Principal.EquiposJornadas.EquiposJornadasFragment"
+    android:background="@drawable/fondopartidos"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+
+            <!--partido1 -->
+            <LinearLayout
+                android:id="@+id/lyGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyEquipo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/imgP1E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/pubela" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Puebla" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyEquipo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/imageView82"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="EMPATE" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyEquipo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/img2P1E2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/atlas" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Atlas" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--partido 2-->
+            <LinearLayout
+                android:id="@+id/lyGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyP2E1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP2E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/veracruz" />
+
+                    <Button
+                        android:id="@+id/btnP2E1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Veracruz" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyP2E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView822"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/btnEmpP2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EMPATE"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyP2E3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP2E3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/tigres" />
+
+                    <Button
+                        android:id="@+id/btnP2E3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Tigres"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--partido 3-->
+            <LinearLayout
+                android:id="@+id/lyGroup3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyP3E1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP3E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/santos" />
+
+                    <Button
+                        android:id="@+id/btnP3E1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Santos"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyP3E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView8223"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/btnEmpP3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EMPATE"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyP3E3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP3E3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/tijuana" />
+
+                    <Button
+                        android:id="@+id/btnP3E3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Tijuana"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--partido 4-->
+            <LinearLayout
+                android:id="@+id/lyGroup4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyP4E1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP4E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/cruz" />
+
+                    <Button
+                        android:id="@+id/btnP4E1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Cruz Azul"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyP4E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView82234"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/btnEmpP4"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EMPATE"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyP4E3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP4E3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/morelia" />
+
+                    <Button
+                        android:id="@+id/btnP4E3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Morelia"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--partido 5-->
+            <LinearLayout
+                android:id="@+id/lyGroup5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyP5E1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP5E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/pachuca" />
+
+                    <Button
+                        android:id="@+id/btnP5E1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Pachuca"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyP5E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView822345"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/btnEmpP5"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EMPATE"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyP5E3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP5E3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/juarez" />
+
+                    <Button
+                        android:id="@+id/btnP5E3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Juarez"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--partido 6-->
+            <LinearLayout
+                android:id="@+id/lyGroup6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyP6E1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP6E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/necaxa" />
+
+                    <Button
+                        android:id="@+id/btnP6E1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Necaxa"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyP6E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView8223456"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/btnEmpP6"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EMPATE"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyP6E3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP6E3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/america" />
+
+                    <Button
+                        android:id="@+id/btnP6E3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="America"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--partido7-->
+            <LinearLayout
+                android:id="@+id/lyGroup7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyP7E1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP7E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/pumas" />
+
+                    <Button
+                        android:id="@+id/btnP7E1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Pumas"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyP7E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView82234567"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/btnEmpP7"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EMPATE"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyP7E3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP7E3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/leon" />
+
+                    <Button
+                        android:id="@+id/btnP7E3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Leon"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--partido 8-->
+            <LinearLayout
+                android:id="@+id/lyGroup8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyP8E1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP8E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/sanluis" />
+
+                    <Button
+                        android:id="@+id/btnP8E1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Atl. San luis"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyP8E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView822345678"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/btnEmpP8"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EMPATE"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyP8E3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP8E3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/queretaro" />
+
+                    <Button
+                        android:id="@+id/btnP8E3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Queretaro"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--partido 9-->
+            <LinearLayout
+                android:id="@+id/lyGroup9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lyP9E1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP9E1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/monterrey" />
+
+                    <Button
+                        android:id="@+id/btnP9E1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Monterrey"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lyP9E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView8223456789"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/btnEmpP9"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EMPATE"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyP9E3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgP9E3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/guadalajara" />
+
+                    <Button
+                        android:id="@+id/btnP9E3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Guadalajara"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <!--Botones con acciones-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seleccionar el tipo de apuesta" />
+
+                <Spinner
+                    android:id="@+id/spinnerApuestas"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+
+            </LinearLayout>
+
+            <!--Botoon guardar-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                >
+
+
+                <Button
+                    android:id="@+id/btnGuardar"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Guardar" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

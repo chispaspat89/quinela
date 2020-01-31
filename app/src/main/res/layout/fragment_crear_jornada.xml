@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interfaces.Administrador.CrearJornada.CrearJornadaFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerJorndas"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/spinner_bg" />
+
+
+
+            <!--para el partido 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido1"
+                    android:textColor="@android:color/black"
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+
+            <!--para el partido 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtpartido2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido 2"
+                    android:textColor="@android:color/black"
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/txtcontra2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+            <!--para el partido 3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtpartido3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido 3"
+                    android:textColor="@android:color/black"
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/txtcontra3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+            <!--para el partido 4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtpartido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido 4"
+                    android:textColor="@android:color/black"
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/txtcontra4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+            <!--para el partido 5-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtpartido5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido  5"
+                    android:textColor="@android:color/black"
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo9"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/txtcontra5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo10"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+            <!--para el partido 6-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtpartido6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido 6"
+                    android:textColor="@android:color/black"
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo11"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/txtcontra6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo12"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+            <!--para el partido 7-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtpartido7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido 7"
+                    android:textColor="@android:color/black"
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo13"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/txtcontra7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo14"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+            <!--para el partido 8-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtpartido8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido 8"
+                    android:textColor="@android:color/black"
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo15"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/txtcontra8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo16"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+            <!--para el partido 9-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtpartido9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Partido 9"
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/equipo17"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+
+                <TextView
+                    android:id="@+id/txtcontra9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="VS" />
+
+                <Spinner
+                    android:id="@+id/equipo18"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/spinner_bg" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/btnguardar"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/botoninicio"
+                    android:text="Guardar jornada"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

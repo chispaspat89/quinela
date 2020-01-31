@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bisboguicompany.chispas.quinela">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:name=".AppEstructura"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Interfaces.Administrador.NuevaJornada.NuevaJornadaActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Interfaces.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Interfaces.Registrarse.RegistraseActivity"
+            android:label="@string/title_activity_registrase"
+            android:parentActivityName=".Interfaces.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Interfaces.Recuperar.RecuperarActivity"
+            android:label="@string/title_activity_recuperar"
+            android:parentActivityName=".Interfaces.LoginActivity" />
+        <activity
+            android:name=".Interfaces.Principal.PrincipalActivity"
+            android:label="@string/title_activity_principal" />
+        <activity
+            android:name=".Interfaces.EditarPerfil.EditarPerfilActivity"
+            android:label="@string/title_activity_editar_perfil" />
+        <activity
+            android:name=".Interfaces.Ventas.VentasActivity"
+            android:label="@string/title_activity_ventas" />
+        <activity
+            android:name=".Interfaces.Ventas.EditarPërfilVendedor.PerfilVendedorActivity"
+            android:label="@string/title_activity_perfil_vendedor" />
+        <activity
+            android:name=".Interfaces.Administrador.AdminActivity"
+            android:label="@string/title_activity_admin" />
+        <activity
+            android:name=".Interfaces.Administrador.CrearJornada.CrearJornadaActivity"
+            android:label="@string/title_activity_crear_jornada"
+            android:parentActivityName=".Interfaces.Administrador.AdminActivity" />
+        <activity
+            android:name=".Interfaces.Administrador.CrearVendedores.ListVendedoresActivity"
+            android:label="@string/title_activity_admin" />
+        <activity
+            android:name=".Interfaces.Administrador.CrearVendedores.NuevoVendedor.NuevoVendedorActivity"
+            android:label="@string/title_activity_admin"
+            android:parentActivityName=".Interfaces.Administrador.CrearVendedores.ListVendedoresActivity" />
+        <activity
+            android:name=".Interfaces.Principal.EquiposJornadas.EquiposJornadasActivity"
+            android:label="@string/title_activity_equipos_jornadas"
+            android:parentActivityName=".Interfaces.Principal.PrincipalActivity" />
+        <activity
+            android:name=".Interfaces.Administrador.ListPartidosAdmin.ListPartidosAdminActivity"
+            android:label="@string/title_activity_list_partidos_admin"
+            android:parentActivityName=".Interfaces.Administrador.AdminActivity" />
+        <activity
+            android:name=".Interfaces.Administrador.ListPartidosAdmin.AgregarResultados.AgregarResultadosActivity"
+            android:label="@string/title_activity_agregar_resultados"
+            android:parentActivityName=".Interfaces.Administrador.ListPartidosAdmin.ListPartidosAdminActivity" />
+        <activity
+            android:name=".Interfaces.Administrador.ResultadosAdmin.ResultadosAdminActivity"
+            android:label="@string/title_activity_resultados_admin" />
+        <activity
+            android:name=".Interfaces.Administrador.ResultadosAdmin.Ganadores.GanadoresActivity"
+            android:label="@string/title_activity_ganadores"
+            android:parentActivityName=".Interfaces.Administrador.ResultadosAdmin.ResultadosAdminActivity" />
+        <activity
+            android:name=".Interfaces.Principal.ResultadosJornada.ResultadosJornadaActivity"
+            android:label="@string/title_activity_resultados_jornada"
+            android:parentActivityName=".Interfaces.Principal.PrincipalActivity" />
+        <activity
+            android:name=".Interfaces.Principal.ResultadosJornada.DetalleResultados.DetalleResultadosActivity"
+            android:label="@string/title_activity_detalle_resultados"
+            android:parentActivityName=".Interfaces.Principal.ResultadosJornada.ResultadosJornadaActivity" />
+        <activity
+            android:name=".Interfaces.Administrador.Puntos.PuntosActivity"
+            android:label="@string/title_activity_puntos" />
+        <activity
+            android:name=".Interfaces.Administrador.Puntos.AgregarPuntos.AgregarPuntosActivity"
+            android:label="@string/title_activity_agregar_puntos"
+            android:parentActivityName=".Interfaces.Administrador.Puntos.PuntosActivity" />
+    </application>
+
+</manifest>

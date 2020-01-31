@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GrandeMX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registrase">RegistraseActivity</string>
+    <string name="title_activity_recuperar">RecuperarActivity</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+
+
+    <string name="pruebas">Perfil</string>
+    <string name="jornadas">Jornadas</string>
+    <string name="resultados">Resultados</string>
+    <string name="title_activity_editar_perfil">EditarPerfilActivity</string>
+    <string name="title_activity_ventas">VentasActivity</string>
+    <string name="title_activity_perfil_vendedor">PerfilVendedorActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_crear_jornada">CrearJornadaActivity</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="title_activity_list_vendedores">ListVendedoresActivity</string>
+    <string name="title_activity_nuevo_vendedor">NuevoVendedorActivity</string>
+    <string name="title_activity_equipos_jornadas">EquiposJornadasActivity</string>
+    <string name="title_activity_list_partidos_admin">ListPartidosAdminActivity</string>
+    <string name="title_activity_agregar_resultados">AgregarResultadosActivity</string>
+    <string name="title_activity_resultados_admin">ResultadosAdminActivity</string>
+    <string name="title_activity_ganadores">GanadoresActivity</string>
+    <string name="title_activity_resultados_jornada">ResultadosJornadaActivity</string>
+    <string name="title_activity_detalle_resultados">DetalleResultadosActivity</string>
+    <string name="title_activity_puntos">PuntosActivity</string>
+    <string name="title_activity_agregar_puntos">AgregarPuntosActivity</string>
+    <string name="title_activity_nueva_jornada">NuevaJornadaActivity</string>
+
+
+    <string name="versionapp">2.4</string>
+</resources>

@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bisboguicompany.chispas.quinela.Interfaces.Administrador.Puntos.AgregarPuntos.AgregarPuntosFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        >
+
+        <TextView
+            android:id="@+id/txtgrande"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar puntos grande"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+
+            />
+
+        <EditText
+            android:id="@+id/editCantidadData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:digits="0123456789"
+            />
+
+
+        <Button
+            android:id="@+id/btngrande"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/botoninicio"
+            android:text="Guardar puntos grande"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="30dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar puntos chivita"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:id="@+id/editCantidadDataChivita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:digits="0123456789"
+            />
+
+        <Button
+            android:id="@+id/btnchivita"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/botoninicio"
+            android:text="Guardar puntos chivita"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</FrameLayout>
